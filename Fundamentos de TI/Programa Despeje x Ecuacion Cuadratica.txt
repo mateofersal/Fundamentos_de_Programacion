@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{float a,b,c,x;
+    cout<<"Digite a, b y c";
+    cin>>a>>b>>c;
+    if(a==0)
+        {
+        cout<<"La ecuacion no tiene solucion"<<endl;
+        cout<<"Una ecuacion cuadratica no tiene solucion real si la x es cero"<<endl;
+        }
+    else
+      {
+      x=(c-b)/a;
+      cout<<"x = "<<x<<endl;
+      }
+    
+    return 0;
+}
+  

@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{float a,b,c;
+ int discriminante=(b*b-4*a*c);
+    cout<<"Digite los valores de a, b y c";
+	cin>>a>>b>>c;
+	if("discriminante" <= 0)
+	{
+	cout<<"La solucion es un numero complejo porque su raiz es :"<<(b*b-a*a*c)<<endl; 
+	}
+	else
+	{
+	discriminante = (b*b-4*a*c);
+	cout<<" "<<endl;
+	cout<<"El discriminante es igual a: "<<discriminante<<endl;
+	}
+	
+    return 0;
+}

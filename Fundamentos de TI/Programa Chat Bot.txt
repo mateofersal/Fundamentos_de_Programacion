@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{string nombre, respuesta;
+	cout<<"Hola, ¿cual es tu nombre?";
+	cin>>nombre;
+	if(nombre==Mateo)
+	{
+		cout<<"Que tal Mateo. ¿En que te puedo ayudar?";
+	}
+	else
+	{
+		cout<<"Tu nombre no me suena... Adios";
+	}
+	
+	cin>>respuesta;
+	if(respuesta==altura)
+	{
+		cout<<"Tu altura es de 1.82m"<<endl;
+	}
+	else
+	{
+	cout<<"Fui creado hace unos momentos, todavia no puedo realizar esa tarea"<<endl;
+	}
+	
+	return 0;
+}

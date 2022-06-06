@@ -1,0 +1,46 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    
+    int n1,n2,n3;
+    
+    cout<<"Digite el primer numero: ";cin>>n1;
+    cout<<"Digite el segundo numero: ";cin>>n2;
+    cout<<"Digite el tercer numero: ";cin>>n3;
+
+    if(n1==n2&&n1==n3&&n2==n3){
+        
+        cout<<"\nTodos los numeros digitados son iguales, no existe uno mayor.";
+        
+    }
+    else{
+        
+        if(n1>n2&&n1>n3){
+        
+        cout<<"\nEl primer numero digitado es el mayor ("<<n1<<")";
+        
+        }
+        else{
+        
+            if(n2>n1&&n2>n3){
+            
+                cout<<"\nEl segundo numero digitado es el mayor ("<<n2<<")";
+            
+            }
+            else{
+            
+                if(n3>n1&&n3>n2){
+                
+                    cout<<"\nEl tercer numero digitado es el mayor ("<<n3<<")";
+                
+                }
+                
+            }
+         }
+    }
+    
+    
+    return 0;
+}
